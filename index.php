@@ -3,7 +3,7 @@
   $testo="1. Un robot non può recar danno a un essere umano né può permettere che, a causa del proprio mancato intervento, un essere umano riceva danno.
           2. Un robot deve obbedire agli ordini impartiti dagli esseri umani, purché tali ordini non contravvengano alla Prima Legge.
           3. Un robot deve proteggere la propria esistenza, purché questa autodifesa non contrasti con la Prima e con la Seconda Legge.";
-  
+  $badword=$_GET["badword"];
 
 ?>
 
@@ -23,7 +23,7 @@
          </h3>
          <h3>
              <br><br>
-             
+             <?php badword : echo $badword?>
          </h3>
      </div>
 
