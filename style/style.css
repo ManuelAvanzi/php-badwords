@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgba(12, 70, 70, 0.303);
+}
+h1{
+    text-align: center;
+}
+.first-box,.second-box{
+    border:1px solid black;
+    margin:10px 50px;
+}
