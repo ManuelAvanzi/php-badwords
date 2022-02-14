@@ -4,6 +4,10 @@
           2. Un robot deve obbedire agli ordini impartiti dagli esseri umani, purché tali ordini non contravvengano alla Prima Legge.
           3. Un robot deve proteggere la propria esistenza, purché questa autodifesa non contrasti con la Prima e con la Seconda Legge.";
   $badword=$_GET["badword"];
+  
+  # misuro la lunghezza della stringa con strlen
+  $size=strlen($testo);
+  
 
 ?>
 
@@ -19,11 +23,12 @@
     
      <div>
          <h3>
-             <?php testo : echo $testo?>
+             <?php  echo $testo?>
          </h3>
          <h3>
              <br><br>
-             <?php badword : echo $badword?>
+
+             <?php echo $size?> 
          </h3>
      </div>
 
