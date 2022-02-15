@@ -49,6 +49,11 @@
          <?php echo $testo_censurato ?>
      </div>
 
+     <div class="pic-container">
+         <img src="./img/asimov.jpg" alt="">
+    </div>
+     
+
 
 </body>
 
